@@ -1,4 +1,4 @@
-# codespaces-blank
+# NewGame
 
 This is a game I copied from Tech with Tim Youtube channel. I will modify it to become my own. 
 
