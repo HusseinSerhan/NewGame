@@ -1,5 +1,7 @@
-# NewGame
+# World Cup Game 2022 
 
-This is a game I copied from Tech with Tim Youtube channel. I will modify it to become my own. 
+![Project Image](https://i2-prod.mirror.co.uk/incoming/article28764956.ece/ALTERNATES/s615b/0_Argentina-v-France-Final-FIFA-World-Cup-Qatar-2022.jpg)
 
-The goal was to learn how to use VSCode and Github. 
+--
+
+#### This is a game where you will be able to cheer for the National Team of Argentina during the World Cup 2022. 
