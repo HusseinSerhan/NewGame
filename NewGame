@@ -1,47 +1,38 @@
-print("Welcome to my first game!")
+print("Welcome to the World Cup Game!")
 name = input('What is your name? ')
 age = input('What is your age? ')
 
 print('Hello', name, "you are" ,age, 'years old.')
 
-health = 10 
 
 
 if int(age) >= 18: 
   print('You are old enough to play')
 
-
-  
   
   wants_to_play = input('Do you want to play? ').lower()
   
   if wants_to_play == 'yes':
-    print('''Let's play!''')
-    print('You are starting witth', health, 'health')
+    print('''In this game you will play the World Cup with the Argentinian National Team''')
   
-    left_or_right = input('First choice... Left or Right (left/right)? ')
+    messi_or_cristiano = input('First game.. you are facing Australia. You have to pick the best player in the world. Who are picking for your team? (Messi/Cristiano) ')
     
-    if left_or_right == 'left': 
-      ans = input('Nice, you follow the path and reach a lake... Do you swim across or go around (across/around)? ')
-      if ans == 'around': 
-        print('You went around and reach the other side of the lake')
-  
-      elif ans == 'across':
-        print('You managed to get across, but were bit by a fish and lost 5 points of health.')
-        health -= 5
-
-      ans = input('You notice a house and a river. Which do you go to (river/house)? ')
-      if ans == 'house': 
-        print("You go to the house and are gretted by the owner... He doesn't like you and you lose 5 health")
-        health -= 5 
-        if health <= 0:
-          print("You now have 0 health and you lose the game...")
+    if messi_or_cristiano == 'messi'.lower(): 
+      blue_or_orange = input('Nice, you picked wisely and reached the quaterfinals... It is time to face the Netherlands. There are two jerseys. One is blue, the other is orange. Which one do you pick? ')
+      if blue_or_orange == 'blue': 
+        maradona_or_pele = input('Wow. We are really close. You have reached the semifinals. Our rival is Croatia. There have been a lot of arguments about the best in history. Which one would you pick? (Maradona/Pele) ')
+        if maradona_or_pele == 'Maradona'.lower(): 
+          chorizo_or_pate = input('And we managed to get to final against France. Time to go for lunch. Argentinian chorizo or French pate? (chorizo/pate) ')
+          if chorizo_or_pate == 'chorizo'.lower(): 
+            print('Congrats!! You made it happen')
+          else: 
+            print("Come on.... I gotta take to Buenos Aires :D ")
         else: 
-          print('You have survived...')
-      else: 
-        print("You fell in the river and lost...")
+          print('You lost! Pele was good but not like Diego ')  
+      else:
+        print('You lost. Orange is an ugly color IMHO')
     else: 
-      print('You fell down and lost...')
+      print('Bye bye bye... Messi is the GOAT')
     
   else: 
     print('See ya')
